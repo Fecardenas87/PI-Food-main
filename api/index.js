@@ -19,7 +19,7 @@
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const server = require('./src/app.js');
 const { conn } = require('./src/db.js');
-const { createDietsDB } = require("./src/routes/utils");
+const { createDietsDB } = require("./src/routes/functions");
 const { PORT } = process.env;
 
 // Syncing all the models at once.
